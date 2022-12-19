@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,100&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.navigation-bar > ul{
+    display:flex;
+    justify-content: center;
+    background-color:rgb(54, 56, 58);
+    height:10vh;
+    gap:1em;
+    width:100%;
+}
+
+.our-classes-button{
+    display:flex;
+    align-self:center;   
+    user-select: none;
+
+}
+.our-classes-button-logo{
+    display:flex;
+    align-self:center;
+    user-select: none;
+
+}
+
+.our-classes-button a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+.title-frontpage{
+    margin-top:1em;
+    text-align: center;
+  
+}
+
+.card-wrapper{
+    display:flex;
+    justify-content: center;
+    margin-top:5em;
+    gap:3em;
+}
+.cardView{
+    display:flex;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius:1%;
+    transition: 0.3s;
+    max-width:20%;
+    user-select: none;
+   
+}
+
+
+.cardView:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-content img{
+   max-width:20%;
+   user-select: none;
+
+}
+
+.card-content a {
+    color:green;
+}
+
+.card-content a:hover{
+    color:grey;
+    transform: 3s;
+    transform:scale(120%);
+}

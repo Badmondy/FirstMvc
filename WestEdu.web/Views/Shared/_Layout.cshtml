@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/styles.css">
+    <script src="https://kit.fontawesome.com/5605743a65.js" crossorigin="anonymous"></script>
+    <title>@ViewData["Title"] - Westeducation </title>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation-bar">
+            <ul>
+                <li class="our-classes-button-logo">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </li>
+                <li class="our-classes-button">
+                    @Html.ActionLink("Hem","Index","Home")
+                </li>
+                <li class="our-classes-button">
+
+                    @Html.ActionLink("Våra kurser", "Index","Course")
+                </li>
+                <li class="our-classes-button">
+
+                    @Html.ActionLink("Vi som jobbar här", "Index","Teacher")
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+
+</body>
+
+</html>

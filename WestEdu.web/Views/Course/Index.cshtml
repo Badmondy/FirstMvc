@@ -1,0 +1,26 @@
+@{
+    ViewData["Title"] = "Våra kurser för 2022";
+}
+@model IList<WestEdu.web.Models.Course>
+
+
+
+<h1 class="title-frontpage"> Våra kurser här nedan</h1>
+
+
+
+<div class="card-wrapper"> @foreach (var course in Model){
+
+    <div class="cardView">
+        <div class="card-content">
+
+            <h4>@course.CourseName</h4>
+            <p>KursID: @course.CourseId</p>
+            <p>Kursnummber: @course.CourseNumber</p>
+            <p>Startdatum: @course.StartDate.ToString("MM/dd/yyyy")</p>
+            <p>Slutdatum: @course.EndDate.ToString("MM/dd/yyyy")</p>
+        </div>
+    </div>
+    
+    
+    }</div>

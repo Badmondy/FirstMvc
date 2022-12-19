@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "Vi som jobbar här!";
+}
+
+@model IList<WestEdu.web.Models.Teacher>
+
+<div class="card-wrapper"> @foreach (var teacher in Model)
+    {
+
+        <div class="cardView">
+            <div class="card-content">
+                <img src="@teacher.profilepic" alt="" srcset="" />
+                <p>@teacher.FirstName</p>
+                <p>@teacher.LastName</p>
+                @foreach(var courses in @teacher.GetAllCourses()){
+                    
+                    <a href="@Url.Action("Index","Course")">@courses.CourseName</a>
+                }
+        
+
+
+
+
+            </div>
+        </div>
+
+
+    }
+</div>
