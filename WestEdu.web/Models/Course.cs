@@ -11,4 +11,6 @@ public class Course{
 
     public DateTime EndDate { get; set; }
 
+    public double CoursePrice { get; set; }
+
 }

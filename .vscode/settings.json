@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/d1bd7ba8-5200-4677-bf8e-d4a99a1a1e24/AppServices/subscriptions/d1bd7ba8-5200-4677-bf8e-d4a99a1a1e24/resourceGroups/mvc-westcoastedu_group/providers/Microsoft.Web/sites/mvc-westcoastedu",
+    "appService.deploySubpath": "WestEdu.web\\publish"
+}

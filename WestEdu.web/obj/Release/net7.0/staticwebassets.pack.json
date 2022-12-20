@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\oskmz\\Documents\\mvc-westedu\\WestEdu.web\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\oskmz\\Documents\\mvc-westedu\\WestEdu.web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\oskmz\\Documents\\mvc-westedu\\WestEdu.web\\wwwroot\\pdf\\2342.pdf",
+      "PackagePath": "staticwebassets\\pdf\\2342.pdf"
+    },
+    {
+      "Id": "C:\\Users\\oskmz\\Documents\\mvc-westedu\\WestEdu.web\\wwwroot\\pdf\\2352.pdf",
+      "PackagePath": "staticwebassets\\pdf\\2352.pdf"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.WestEdu.web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.WestEdu.web.props",
+      "PackagePath": "build\\WestEdu.web.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.WestEdu.web.props",
+      "PackagePath": "buildMultiTargeting\\WestEdu.web.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.WestEdu.web.props",
+      "PackagePath": "buildTransitive\\WestEdu.web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

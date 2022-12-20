@@ -27,10 +27,18 @@
 
                     @Html.ActionLink("Vi som jobbar här", "Index","Teacher")
                 </li>
+
+                <li class="basket">
+                    <a href="@Url.Action("Index","ShopCart")">
+                        <i class="fa-solid fa-basket-shopping fa-xl">
+                        </i></a>
+                    
+                    </li>
             </ul>
 
         </nav>
     </header>
+    @await Html.PartialAsync("_WeeklyDeals")
 
     <main>
         @RenderBody()

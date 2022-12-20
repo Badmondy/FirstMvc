@@ -15,11 +15,18 @@
         <div class="card-content">
 
             <h4>@course.CourseName</h4>
-            <p>KursID: @course.CourseId</p>
+            <p>KursID: <p class="course-id">@course.CourseId</p></p>
             <p>Kursnummber: @course.CourseNumber</p>
             <p>Startdatum: @course.StartDate.ToString("MM/dd/yyyy")</p>
             <p>Slutdatum: @course.EndDate.ToString("MM/dd/yyyy")</p>
+            <p class="price-margin">Pris: @course.CoursePrice kr</p>
+            <i class="fa-solid fa-file-pdf">
+            </i>
+            <a asp-action="Download" asp-controller="Course" asp-route-pdfId=@course.CourseNumber>Ladda ner kursPdf</a>
+            @* @Html.ActionLink("Ladda ner kursPDF","Download","Course", new { pdfID = @course.CourseNumber }, null); *@
+           
         </div>
+   
     </div>
     
     

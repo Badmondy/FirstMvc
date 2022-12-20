@@ -1,0 +1,26 @@
+@{
+    ViewData["Title"] = "Din kundkorg";
+}
+@model IList<WestEdu.web.Models.ShopCart>
+
+
+<h1 class="title-frontpage">
+
+  <p>Du har köpt kurserna </p>
+  @foreach(var item in Model){
+
+    
+    foreach(var o in item.GetMyItems()){
+        <p> @o.CourseName </p>
+        <p> @o.CoursePrice </p>
+        
+    }
+  }
+
+  <p> Totalt 8000 kronor</p>
+</h1>
+
+@{int price = 6300;}
+<h3 class="title-frontpage"> <a asp-action="checkout" asp-route-finalprice=@price> Betala med PayPal<i class="fa-brands fa-paypal"></i></a></h3>
+
+

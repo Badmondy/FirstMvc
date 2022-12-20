@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "mm24yZhDGiftWLUete0f09myefLsJK0ZNI7Fa7sm/1w=",
+  "Source": "WestEdu.web",
+  "BasePath": "_content/WestEdu.web",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WestEdu.web\\wwwroot",
+      "Source": "WestEdu.web",
+      "ContentRoot": "C:\\Users\\oskmz\\Documents\\mvc-westedu\\WestEdu.web\\wwwroot\\",
+      "BasePath": "_content/WestEdu.web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\oskmz\\Documents\\mvc-westedu\\WestEdu.web\\wwwroot\\css\\styles.css",
+      "SourceId": "WestEdu.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\oskmz\\Documents\\mvc-westedu\\WestEdu.web\\wwwroot\\",
+      "BasePath": "_content/WestEdu.web",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\oskmz\\Documents\\mvc-westedu\\WestEdu.web\\wwwroot\\favicon.ico",
+      "SourceId": "WestEdu.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\oskmz\\Documents\\mvc-westedu\\WestEdu.web\\wwwroot\\",
+      "BasePath": "_content/WestEdu.web",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\oskmz\\Documents\\mvc-westedu\\WestEdu.web\\wwwroot\\pdf\\2342.pdf",
+      "SourceId": "WestEdu.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\oskmz\\Documents\\mvc-westedu\\WestEdu.web\\wwwroot\\",
+      "BasePath": "_content/WestEdu.web",
+      "RelativePath": "pdf/2342.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pdf\\2342.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\oskmz\\Documents\\mvc-westedu\\WestEdu.web\\wwwroot\\pdf\\2352.pdf",
+      "SourceId": "WestEdu.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\oskmz\\Documents\\mvc-westedu\\WestEdu.web\\wwwroot\\",
+      "BasePath": "_content/WestEdu.web",
+      "RelativePath": "pdf/2352.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pdf\\2352.pdf"
+    }
+  ]
+}
